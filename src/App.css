@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  gap: 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
+
+button {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: .7rem;
+  border-radius: 13%;
+}
+input{
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+}
+label{
+  font-size: 17px;
+  gap: .3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: solid white;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  gap: 1rem;
+}
+h1{
+  margin: 2rem;
+}
